@@ -3,7 +3,7 @@
 #define V 6
 
 void kahn(int g[V][V]) {
-    int in[V] = {0}, q[V], f = 0, r = 0, i, j, u;
+    int in[V] = {0}, q[V], f = 0, r = 0, i, j, u, v; // Added 'v' here
 
     for (i = 0; i < V; i++)
         for (j = 0; j < V; j++)
